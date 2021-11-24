@@ -1,0 +1,183 @@
+.container2{
+  margin-bottom: 95px;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.project3 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-image: url("./../img/fone/fone3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  
+}
+.project3-header{
+  text-shadow: 0px 0px 40px black;
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 46px;
+  text-align: center;
+  color: #000000;
+}
+.project3-film-card{
+  
+  display: grid;
+  row-gap: 40px;
+ 
+  grid-template-columns: repeat(3, 376px);
+  column-gap: 40px;
+  
+}
+.film-card{   
+  border: 3px solid black;
+  position: relative;
+  padding-bottom: 64%;
+  max-width: 376px;
+  background-color:rgba(255, 255, 255, 0.479);
+  box-shadow: 0px 0px 40px black;
+}
+.film-card-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 8px;
+  text-align: left; 
+  margin-left: 15px;
+}
+.film-card-img{
+  position: absolute;
+  left: 0;
+   bottom: 0;
+   width: 100%;
+  height: auto;
+}
+
+
+.container11{
+    margin-top: 80px;
+    max-width: 732px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#stapel1 {
+    
+    height: 20em;
+    width: 45.5em;
+    margin: 1em -1em;
+    cursor: pointer;
+    perspective: 900px;
+    transform-style: preserve-3d;
+    background: rgba(255, 255, 255, 0.479);
+    border: 3px solid black;
+    box-shadow: 0px 0px 40px black;
+  }
+  
+  #stapel1 img {
+    
+    border: 5px solid #eee;
+    box-shadow: 1px 1px 5px 2px #777;
+  }
+  
+  #stapel1 figure {
+    position: absolute;
+    margin: 0;
+    width: 13.75em;
+    height: 9.375em;
+    left: 15.7em;
+    top: 5em;
+    opacity: 0;
+  }
+  
+  #stapel1 figcaption {
+    position: absolute;
+    color: #444;
+    font-size: .7em;
+    letter-spacing: .1em;
+    word-spacing: .1em;
+    text-align: center;
+    line-height: 1.25em;
+    background: rgba(255, 255, 255, .7);
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 5px 2px #777;
+    width: 18.5em;
+    height: 1.25em;
+    top: 155px;
+    left: 5px;
+    opacity: 0;
+    transition: 1s;
+  }
+  
+  #stapel1:hover figcaption {
+    opacity: 1;
+  }
+  
+  #stapel1 figure:nth-of-type(1) {
+    
+    animation: bild1 36s linear infinite;
+  }
+  
+  #stapel1 figure:nth-of-type(2) {
+    animation: bild1 36s 4s linear infinite;
+  }
+  
+  #stapel1 figure:nth-of-type(3) {
+    animation: bild1 36s 8s linear infinite;
+  }
+  
+  #stapel1 figure:nth-of-type(4) {
+    animation: bild1 36s 12s linear infinite;
+  }
+  
+  #stapel1 figure:nth-of-type(5) {
+    animation: bild1 36s 16s linear infinite;
+  }
+  
+  #stapel1 figure:nth-of-type(6) {
+    animation: bild1 36s 20s linear infinite;
+  }
+  
+  #stapel1 figure:nth-of-type(7) {
+    animation: bild1 36s 24s linear infinite;
+  }
+  
+  #stapel1 figure:nth-of-type(8) {
+    animation: bild1 36s 28s linear infinite;
+  }
+  
+  #stapel1 figure:nth-of-type(9) {
+    animation: bild1 36s 32s linear infinite;
+  }
+  
+  @keyframes bild1 {
+      0%    {opacity:  1; z-index:5;
+             transform:rotateY(0deg) translateZ(315px);}
+     11.11% {opacity: .9; z-index:4;
+             transform:rotateY(40deg) translateZ(315px);}
+     22.22% {opacity: .7; z-index:3;
+             transform:rotateY(80deg) translateZ(315px);}
+     33.33% {opacity: .5; z-index:2;
+             transform:rotateY(120deg) translateZ(315px);}
+     44.44% {opacity: .3; z-index:1;
+             transform:rotateY(160deg) translateZ(315px);}
+     55.56% {opacity: .3; z-index:1;
+             transform:rotateY(200deg) translateZ(315px);}
+     66.67% {opacity: .5; z-index:2;
+             transform:rotateY(240deg) translateZ(315px);}
+     77.78% {opacity: .7; z-index:3;
+             transform:rotateY(280deg) translateZ(315px);}
+     88.89% {opacity: .9; z-index:4;
+             transform:rotateY(320deg) translateZ(315px);}
+    100%    {opacity:  1; z-index:5;
+             transform:rotateY(360deg) translateZ(315px);}
+  }
+  
+  #stapel1:hover figure {
+    animation-play-state: paused;
+  }

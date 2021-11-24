@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личная страница</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 400; 600; 700 & display = swap "rel =" stylesheet ">
+</head>
+<body>
+    <div class="block"></div>
+ <header>
+    <div class="header" id="header">
+        <h1 class="header-title">Михалевич Даниил Валерьевич</h1>
+     <p class="header-subtitle">студент ПГУ</p>
+      <a href="#aboutme" class="header-arrow">
+         <img src="./img/header/chevron-down.svg" alt="Arrow">
+        </a>
+    </div>
+</header>
+
+    <main>
+        <div class="aboutme" id="aboutme">
+            <div class="container">
+                <h2 class="aboutme-header">О себе</h2>
+               
+                <!--aboutme-cards-wrapper-->
+             <div class="aboutme-cards-wrapper">
+        
+               
+                <!--Card-->
+                <div class="card">
+                    <a href="biography.html" class="card-link">
+                    <img class="card-img" src="./img/aboutme/biography.jpg" alt="Биография">
+                    <h3 class="card-title">Биография</h3>
+                     </a>
+                </div>
+                 <!--//Card-->   
+               
+                 <!--Card-->
+                <div class="card">
+                    <a href="music.html" class="card-link">
+                    <img class="card-img" src="./img/aboutme/music.jpg" alt="Любимая музыка">
+                    <h3 class="card-title">Любимая музыка</h3>
+                    </a>
+                </div>
+                 <!--//Card-->   
+               
+                 <!--Card-->
+                <div class="card">
+                    <a href="film.html" class="card-link">
+                    <img class="card-img" src="./img/aboutme/film.jpg" alt="Любимые фильмы">
+                    <h3 class="card-title">Любимые фильмы</h3>
+                    </a>
+                </div>
+                 <!--//Card-->   
+               
+                 <!--Card-->
+                <div class="card">
+                    <a href="travelling.html" class="card-link">
+                    <img class="card-img" src="./img/aboutme/travell.jpg" alt="Любимые места">
+                    <h3 class="card-title">Любимые места</h3>
+                     </a>
+                </div>
+                 <!--//Card-->   
+                </div>
+                <!--//aboutme-cards-wrapper-->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-row">
+                    <div class="footer-copyright footer-col">
+                        <div class="foter-copyright-name">© Даниил Михалевич</div>    
+                        <p>Личная страница данного пользователя</p>       
+                    </div>
+
+                    <!--footer-icons-->
+                    <div class="footer-icons footer-col">
+                        <p>Профили в социальных сетях:</p>
+                       <div class="footer-icons-row">
+                        <a href="https://www.instagram.com/daniil.mikhalevich/">
+                            <img src="./img/icons/instagram.svg" alt="Инстаграм">
+                         </a>
+                        <a href="https://vk.com/daniil_mihalevich">
+                            <img src="./img/icons/vk.svg" alt="Вконтакте">
+                         </a>
+                        <a href="https://www.facebook.com/profile.php?id=100007025537773">
+                            <img src="./img/icons/facebook.svg" alt="Фейсбук">
+                         </a>
+                       </div>
+                    </div>
+                    <!--//footer-icons-->
+                    <div class="footer-contacts footer-col">
+                        <a href="https://vk.me/daniil_mihalevich" class="footer-button"> Связаться Вконтакте</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Библиотека и плагины-->
+    <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+    
+    <!--Вызовы библиотек-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
