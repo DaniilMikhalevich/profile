@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Любимая музыка</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/music.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 400; 600; 700 & display = swap "rel =" stylesheet ">
+</head>
+<body>
+    <main>
+    <article class="project2" id="project2">
+        <div class="container3">
+            
+               <h1 class="project2-header">Любимая музыка</h1>
+                
+               <div class="carousel-wrapper">
+                <span id="item-1"></span>
+                <span id="item-2"></span>
+                <span id="item-3"></span>
+                <span id="item-4"></span>
+                <div class="carousel-item item-1">
+                    <h2 class="steps-header"><mark class="mark">Bhad Bhabie</mark></h2>
+                    <audio id="audio"  class="steps-music"  src="./music/bhad.mp3" controls onplay="other_pause(0)" autoplay></audio>
+                    <audio id="audio2"  class="steps-music"  src="./music/bhad2.mp3" controls onplay="other_pause(1)"></audio>
+                    <audio id="audio3"  class="steps-music" src="./music/bhad3.mp3" controls onplay="other_pause(2)"></audio>   
+                  <a class="arrow arrow-prev" href="#item-4"></a>
+                  <a class="arrow arrow-next" href="#item-2"></a>
+                </div>
+                
+                <div class="carousel-item item-2">
+                    <h2 class="steps-header2"><mark class="mark">21 Savage</mark></h2>
+                    <audio id="audio4"  class="steps-music2" src="./music/savage2.mp3" controls onplay="other_pause(3)"></audio>
+                    <audio id="audio5"  class="steps-music2" src="./music/savage.mp3" controls onplay="other_pause(4)"></audio>
+                    <audio id="audio6"  class="steps-music2" src="./music/savage3.mp3" controls onplay="other_pause(5)"></audio> 
+                  <a class="arrow arrow-prev" href="#item-1"></a>
+                  <a class="arrow arrow-next" href="#item-3"></a>
+                </div>
+                
+                <div class="carousel-item item-3">
+                    <h2 class="steps-header2"><mark class="mark">6ix9ine</mark></h2>
+                    <audio id="audio7" class="steps-music2" src="./music/sixnine.mp3" controls onplay="other_pause(6)"></audio>
+                    <audio id="audio8" class="steps-music2" src="./music/sixnine2.mp3" controls onplay="other_pause(7)"></audio>
+                    <audio id="audio9" class="steps-music2" src="./music/sixnine3.mp3" controls onplay="other_pause(8)"></audio> 
+                  <a class="arrow arrow-prev" href="#item-2"></a>
+                  <a class="arrow arrow-next" href="#item-4"></a>
+                </div>
+                <div class="carousel-item item-4">
+                    <h2 class="steps-header2"><mark class="mark">Мари Краимбрери</mark></h2>
+                    <audio id="audio10" class="steps-music2" src="./music/mari.mp3" controls onplay="other_pause(9)"></audio>
+                    <audio id="audio11" class="steps-music2" src="./music/mari2.mp3" controls onplay="other_pause(10)"></audio>
+                    <audio id="audio12" class="steps-music2" src="./music/mari3.mp3" controls onplay="other_pause(11)"></audio> 
+                  <a class="arrow arrow-prev" href="#item-3"></a>
+                  <a class="arrow arrow-next" href="#item-1"></a>
+                </div>
+              </div>
+               
+        </div>
+        <a href="index.html" class="project-btn-back3">← ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
+    </article> 
+    </main>
+                 <footer>
+        <div class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer-copyright footer-col">
+                <div class="foter-copyright-name">© Даниил Михалевич</div>    
+                <p>Личная страница данного пользователя</p>       
+            </div>
+
+            <!--footer-icons-->
+            <div class="footer-icons footer-col">
+                <p>Мои профили в социальных сетях:</p>
+               <div class="footer-icons-row">
+                <a href="https://www.instagram.com/daniil.mikhalevich/">
+                    <img src="./img/icons/instagram.svg" alt="Инстаграм">
+                 </a>
+                <a href="https://vk.com/daniil_mihalevich">
+                    <img src="./img/icons/vk.svg" alt="Вконтакте">
+                 </a>
+                <a href="https://www.facebook.com/profile.php?id=100007025537773">
+                    <img src="./img/icons/facebook.svg" alt="Фейсбук">
+                 </a>
+               </div>
+            </div>
+            <!--//footer-icons-->
+            <div class="footer-contacts footer-col">
+                <a href="https://vk.me/daniil_mihalevich" class="footer-button"> Связаться Вконтакте</a>
+            </div>
+        </div>
+    </div>
+         </div>
+                </footer>
+                <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+                <script src="./libs/vide/jquery.vide.min.js"></script> 
+                <!--Вызовы библиотек-->
+                <script src="./js/main.js"></script>
+</body>
+</html>
