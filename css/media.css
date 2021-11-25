@@ -202,8 +202,11 @@
         padding-right: 75px;
     }
     #stapel1{
+        margin-bottom: 100px;
+        float: right;
+        padding-right: 200px;
         width: 48.5em;
-        margin-left: -40px;
+        margin-right: -30px;
     }
 }
 @media (max-width: 700px){
@@ -235,7 +238,9 @@
         height: 20px;
          width: 280px;
     }
-    
+    #stapel1 figure {
+        left: 18.7em;
+    }
 
 }
 
@@ -292,7 +297,7 @@
     }
     
     #stapel1 figure {
-        left: 12.7em;
+        left: 18.7em;
     }
 }
 
@@ -324,12 +329,42 @@
         font-size: 16px;
         padding-right: 40px;
     }
+    
     #stapel1{
-        margin-left: -90px;
+        height: 17em;
+        width: 410px;
+        margin-right: -28px;
     }
     #stapel1 figure {
-        left: 10.7em;
+        left: 5.5em;
     }
+    #stapel1 img {
+        max-width: 130px;
+        max-height: 100px;
+    }
+    @keyframes bild1 {
+        0%    {opacity:  1; z-index:5;
+               transform:rotateY(0deg) translateZ(180px);}
+       11.11% {opacity: .9; z-index:4;
+               transform:rotateY(40deg) translateZ(180px);}
+       22.22% {opacity: .7; z-index:3;
+               transform:rotateY(80deg) translateZ(180px);}
+       33.33% {opacity: .5; z-index:2;
+               transform:rotateY(120deg) translateZ(180px);}
+       44.44% {opacity: .3; z-index:1;
+               transform:rotateY(160deg) translateZ(180px);}
+       55.56% {opacity: .3; z-index:1;
+               transform:rotateY(200deg) translateZ(180px);}
+       66.67% {opacity: .5; z-index:2;
+               transform:rotateY(240deg) translateZ(180px);}
+       77.78% {opacity: .7; z-index:3;
+               transform:rotateY(280deg) translateZ(180px);}
+       88.89% {opacity: .9; z-index:4;
+               transform:rotateY(320deg) translateZ(180px);}
+      100%    {opacity:  1; z-index:5;
+               transform:rotateY(360deg) translateZ(180px);}
+    }
+
 }
 
 @media (max-width: 460px){
@@ -338,20 +373,20 @@
     }
     .numberCircle{
         margin-bottom: 10px;
-        margin-left: 50px;
+        margin-left: 30px;
         font-size: 20px;
         width: 40px;
         line-height: 35px;
     }
     .travell-heading{
         margin-bottom: 10px;
-        margin-left: 50px;
+        margin-left: 30px;
         font-size: 27px;
         margin-right: 10px;
     }
     .travell-description{
-        margin-left: 50px;
-        font-size: 16px;
+        margin-left: 30px;
+        font-size: 15px;
         padding-right: 20px;
     }
     .project2-header{
@@ -392,21 +427,21 @@
 @media (max-width: 400px){
     .numberCircle{
         margin-bottom: 5px;
-        margin-left: 40px;
+        margin-left: 20px;
         font-size: 15px;
         width: 30px;
         line-height: 25px;
     }
     .travell-heading{
         margin-bottom: 5px;
-        margin-left: 40px;
-        font-size: 23px;
+        margin-left: 20px;
+        font-size: 20px;
         margin-right: 5px;
     }
     .travell-description{
-        margin-left: 40px;
+        margin-left: 20px;
         font-size: 14px;
-        padding-right: 20px;
+        padding-right: 0px;
     }
     .project-btn-back2{
         font-size:90%;
@@ -444,13 +479,195 @@
         height: 14px;
         width: 200px;
     }
+    #stapel1{
+        width: 650px;
+        margin-right: -30px;
+        height: 18em;
+    }
+    #stapel1 figure {
+        left: 12.7em;
+    }
+    #stapel1 img {
+        max-width: 170px;
+        max-height: 110px;
+    }
+    @keyframes bild1 {
+        0%    {opacity:  1; z-index:5;
+               transform:rotateY(0deg) translateZ(300px);}
+       11.11% {opacity: .9; z-index:4;
+               transform:rotateY(40deg) translateZ(300px);}
+       22.22% {opacity: .7; z-index:3;
+               transform:rotateY(80deg) translateZ(300px);}
+       33.33% {opacity: .5; z-index:2;
+               transform:rotateY(120deg) translateZ(300px);}
+       44.44% {opacity: .3; z-index:1;
+               transform:rotateY(160deg) translateZ(300px);}
+       55.56% {opacity: .3; z-index:1;
+               transform:rotateY(200deg) translateZ(300px);}
+       66.67% {opacity: .5; z-index:2;
+               transform:rotateY(240deg) translateZ(300px);}
+       77.78% {opacity: .7; z-index:3;
+               transform:rotateY(280deg) translateZ(300px);}
+       88.89% {opacity: .9; z-index:4;
+               transform:rotateY(320deg) translateZ(300px);}
+      100%    {opacity:  1; z-index:5;
+               transform:rotateY(360deg) translateZ(300px);}
+    }
 }
 
-@media (max-width: 370px){
-    #stapel1 figure {
-        left: 9.7em;
-    }  
-    #stapel1 img {
-        max-width: 190px;
+
+@media (max-height: 890px){
+.travell2, .travell3, .travell4, .travell5, .travell6, .travell7, .travell8, .travell9, .travell10, .travell11, .travell12, .travell13, .travell14, .travell15, .travell16, .travell17, .travell18, .travell19{
+    padding-top: 550px;}
+    
+}
+@media (max-height: 825px){
+    .travell20back{
+        margin-top: 350px;
+    }
+}
+@media (max-height: 750px){
+    .travell2, .travell3, .travell4, .travell5, .travell6, .travell7, .travell8, .travell9, .travell10, .travell11, .travell12, .travell13, .travell14, .travell15, .travell16, .travell17, .travell18, .travell19{
+        padding-top: 450px;
+        height: 156vh;
+    }
+    .travell20back{
+        margin-top: 260px;
+    }
+}
+@media (max-height: 690px){
+    .travell2, .travell3, .travell4, .travell5, .travell6, .travell7, .travell8, .travell9, .travell10, .travell11, .travell12, .travell13, .travell14, .travell15, .travell16, .travell17, .travell18, .travell19{
+        padding-top: 350px;
+        height: 163vh;
+    }
+    .travell20back{
+        margin-top: 140px;
+    }
+}
+@media (max-height: 600px){
+    .travell2, .travell3, .travell4, .travell5, .travell6, .travell7, .travell8, .travell9, .travell10, .travell11, .travell12, .travell13, .travell14, .travell15, .travell16, .travell17, .travell18, .travell19{
+        padding-top: 250px;
+        height: 175vh;
+    }
+    .travell20back{
+        margin-top: 0px;
+    }
+}
+@media (max-height: 500px){
+    .travell2, .travell3, .travell4, .travell5, .travell6, .travell7, .travell8, .travell9, .travell10, .travell11, .travell12, .travell13, .travell14, .travell15, .travell16, .travell17, .travell18, .travell19{
+        padding-top: 130px;
+    }
+    .travell20back{
+        margin-top: -25px;
+    }
+}
+@media (max-height: 400px){
+    .travell2, .travell3, .travell4, .travell5, .travell6, .travell7, .travell8, .travell9, .travell10, .travell11, .travell12, .travell13, .travell14, .travell15, .travell16, .travell17, .travell18, .travell19{
+        padding-top: 50px;
+        height: 155vh;
+    }
+    .travell20back{
+        margin-top: -90px;
+    }
+    .travell20{
+        height: 155vh;
+    }
+}
+
+
+@media (max-height: 800px){
+    .header-arrow2{
+        height: 18px;
+    }
+}
+@media (max-height: 682px){
+    .travell{
+        padding-top: 200px;
+    }
+
+}
+@media (max-height: 632px){
+    .travell{
+        padding-top: 150px;
+    }
+}
+@media (max-height: 590px){
+    .travell{
+        padding-top: 100px;
+    }
+}
+@media (max-height: 530px){
+    .travell{
+        padding-top: 50px;
+    }
+}
+@media (max-height: 490px){
+    .travellback{
+        height: 120vh;
+    } 
+    .travell-description{
+        font-size: 15px;
+    }
+
+}
+@media (max-height: 460px){
+    .travell{
+        padding-top: 45px;
+    }
+    .numberCircle{
+        margin-left: 20px;
+    }
+    .travell-heading{
+        margin-right: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .travell-description{
+        font-size: 13px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .travellback{
+        height: 120vh;
+    } 
+}
+@media (max-height: 400px){
+    .travellback{
+        height: 130vh;
+    } 
+    .travell{
+        height: 140vh;
+        padding-top: 40px;
+    }
+    .travell-heading{
+        margin-right: 10px;
+        font-size: 19px;
+    }
+    .travell-description{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+}
+@media (max-height: 350px){
+    .travellback{
+        height: 135vh;
+    } 
+    .travell{
+        height: 145vh;
+        padding-top: 35px;
+    }
+    .travell-description{
+        font-size: 12px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .travell-heading{
+        margin-right: 10px;
+        font-size: 17px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .numberCircle{
+        margin-left: 10px;
     }
 }
